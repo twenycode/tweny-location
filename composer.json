@@ -1,0 +1,27 @@
+{
+    "name": "twenycode/tweny-location",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TwenyCode\\TwenyLocation\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Antweny Sawe",
+            "email": "antweny@live.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "twenycode/tweny-core": "^1.1"
+    },
+    "extra": {
+        "laravel": {
+            "providers":[
+                "TwenyCode\\TwenyLocation\\TwenyLocationServiceProvider"
+            ]
+        }
+    }
+}
